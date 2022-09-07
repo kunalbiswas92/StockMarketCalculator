@@ -206,7 +206,7 @@ public class RunnerFile extends JFrame {
 				{
 				
 				String Userinput = textField.getText();
-				textArea.setText(Userinput);
+				
 				int integerPart = Calculations.sqrtIntegerExtract(Userinput);
 
 				// integer part of input number
